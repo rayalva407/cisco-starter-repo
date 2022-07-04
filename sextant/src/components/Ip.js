@@ -5,7 +5,6 @@ function Ip({v}) {
   let url;
 
   const [ip, setIp] = useState("")
-  console.log(v)
   
   v === "v4" ? url = "https://api.ipify.org?format=json" : url = "https://api64.ipify.org?format=json"
 

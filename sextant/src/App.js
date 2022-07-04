@@ -7,10 +7,8 @@ function App() {
     <div className="App min-vh-100">
       <Banner bannerText="Sextant" />
       <div className="exhibit-container d-flex justify-content-evenly flex-wrap ">
-        <Exhibit heading="This is the first exhibit" />
-        <Exhibit heading="Awesome Exhibit" />
-        <Exhibit heading="Awesome Exhibit #2" />
-        <Exhibit heading="Awesome Exhibit #3" />
+        <Exhibit v={"v4"} heading="This is the first exhibit" />
+        <Exhibit v={"v6"} heading="Awesome Exhibit" />
 
       </div>
     </div>
